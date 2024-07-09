@@ -25,7 +25,7 @@ button {
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
 }
 
 /* shared style */
@@ -41,6 +41,39 @@ button {
   line-height: 23px;
   text-align: center;
   padding: 17px 24px;
+}
+
+.btn-primary {
+  outline: none;
+  border-radius: 8px;
+  border: 1px solid rgb(13, 19, 33);
+  background: rgb(13, 19, 33);
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  padding: 21px 24px;
+}
+
+.btn-secondary {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+  padding: 12px 20px;
+  outline: none;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  cursor: pointer;
+  color: rgb(13, 19, 33);
+}
+
+.flx {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* Nav style start*/
@@ -72,7 +105,6 @@ nav .logo-text {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 26px 0 44px 0;
-  /* padding: 26px 221px 44px; */
 }
 
 .banner-content {
@@ -101,19 +133,6 @@ nav .logo-text {
   margin-bottom: 32px;
 }
 
-.banner-btn .btn-primary {
-  outline: none;
-  border-radius: 8px;
-  border: 1px solid rgb(13, 19, 33);
-  background: rgb(13, 19, 33);
-  cursor: pointer;
-  color: #fff;
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 23px;
-  padding: 21px 24px;
-}
-
 .btn-primary:hover {
   background-color: transparent;
   color: #000;
@@ -121,4 +140,73 @@ nav .logo-text {
 
 /* Banner style end */
 
+/* Web-Development style start */
+#web-development {
+  margin: 88px 0;
+}
 
+.web-developement-container {
+  padding: 80px 97px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+}
+.web-developement-container .web-development-text {
+  margin: 0 47px;
+  text-align: center;
+}
+.web-development-text .web-development-title {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  margin-bottom: 24px;
+}
+
+.web-development-text .web-development-description {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.web-development-items {
+  margin-bottom: 48px;
+  padding: 48px;
+}
+.web-development-item {
+  padding: 48px;
+}
+
+.web-development-item-text h3 {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.web-development-item-text p {
+  color: rgb(13, 19, 33);
+  line-height: 26px;
+  text-align: left;
+  padding-right: 1rem;
+  margin-bottom: 32px;
+}
+
+.btn-secondary {
+}
+
+.web-development-item-text {
+  max-width: 55%;
+  color: rgb(13, 19, 33);
+  line-height: 26px;
+  text-align: left;
+}
+
+.web-development-item-image {
+  width: 260px;
+  height: 217px;
+}
+
+/* Web-Development style end */
