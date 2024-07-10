@@ -389,3 +389,61 @@ nav .logo-text {
 }
 
 /* Next Target style end */
+
+/* Contact style start */
+#contact .container {
+  background-image: url(../assets/handshake.jpg);
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 64px 48px;
+  margin: 48px auto 80px;
+  border-radius: 16px;
+}
+
+.contact-text {
+  max-width: 730px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-title {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.contact-dascrition {
+  color: rgb(255, 255, 255);
+  line-height: 26px;
+}
+
+.contact-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.contact-input input[type="text"] {
+  width: 548px;
+  outline: none;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  padding: 19px 20px;
+  background: rgb(255, 255, 255);
+}
+.contact-input input[type="submit"] {
+  width: 120px;
+  padding: 17px 20px;
+  color: rgb(13, 19, 33);
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+}
+
+/* Contact style  end */
