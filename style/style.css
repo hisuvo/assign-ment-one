@@ -45,6 +45,12 @@ button {
   line-height: 23px;
   text-align: center;
   padding: 17px 24px;
+  transition: 0.5s;
+}
+
+.nav-btn:hover {
+  background: rgb(13, 19, 33);
+  color: #fff;
 }
 
 .btn-primary {
@@ -58,6 +64,7 @@ button {
   font-weight: 600;
   line-height: 23px;
   padding: 21px 24px;
+  transition: 0.5s;
 }
 
 .btn-secondary {
@@ -71,6 +78,11 @@ button {
   border: 1px solid rgb(13, 19, 33);
   opacity: 0.7;
   cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn-secondary:hover {
+  transform: scale(1.1);
 }
 
 .flx {
@@ -197,9 +209,6 @@ nav .logo-text {
   line-height: 26px;
 }
 
-/* .web-development-items > * + * {
-  margin-top: 32px;
-} */
 .web-development-items {
   display: flex;
   flex-direction: column;
@@ -392,6 +401,7 @@ nav .logo-text {
 
 /* Contact style start */
 #contact .container {
+  background-color: #0008;
   background-image: url(../assets/handshake.jpg);
   background-blend-mode: overlay;
   background-position: center;
@@ -413,6 +423,7 @@ nav .logo-text {
   font-size: 32px;
   font-weight: 700;
   line-height: 36px;
+  margin-bottom: 16px;
 }
 
 .contact-dascrition {
@@ -432,6 +443,7 @@ nav .logo-text {
   width: 548px;
   outline: none;
   border: 1px solid rgba(13, 19, 33, 0.15);
+  font-size: 16px;
   border-radius: 8px;
   padding: 19px 20px;
   background: rgb(255, 255, 255);
@@ -439,6 +451,7 @@ nav .logo-text {
 .contact-input input[type="submit"] {
   width: 120px;
   padding: 17px 20px;
+  border: none;
   color: rgb(13, 19, 33);
   border-radius: 8px;
   font-size: 20px;
@@ -447,3 +460,24 @@ nav .logo-text {
 }
 
 /* Contact style  end */
+
+/* Footer style start */
+footer {
+  padding: 32px 150px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+}
+
+.footer-text {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+}
+
+.footer-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+/* Footer style end */
