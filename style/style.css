@@ -278,45 +278,26 @@ nav .logo-text {
   margin-top: 149px;
 }
 
-.target-image {
-  width: 56px;
-  height: 56px;
-}
+/* Here current and next section common style start */
 
-.crnt-target-text {
+.crnt-target-text,
+.nxt-target-text {
   max-width: 852px;
   margin: 0 auto 48px;
   text-align: center;
 }
 
-.crnt-target-title {
+.crnt-target-title,
+.nxt-target-title {
   font-size: 32px;
   font-weight: 800;
   line-height: 37px;
   margin-bottom: 24px;
 }
 
-.crnt-target-descripton {
+.crnt-target-descripton,
+.nxt-target-descripton {
   line-height: 26px;
-}
-
-/* crnt-target-language start here */
-
-.crnt-target-language .flx {
-  flex-direction: row;
-  gap: 24px;
-}
-
-.crnt-target-lang-item {
-  flex-basis: 364px;
-  border-radius: 16px;
-  padding: 40px;
-}
-
-.crnt-target-lang-item {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
 }
 
 .target-lang-title {
@@ -339,4 +320,72 @@ nav .logo-text {
   text-decoration-line: underline;
 }
 
+/* Here current and next section common style end */
+
+/* crnt-target-language start here */
+.crnt-target {
+  margin-bottom: 111px;
+}
+
+.crnt-target-language .flx {
+  flex-direction: row;
+  gap: 24px;
+}
+
+.crnt-target-lang-item .target-image {
+  width: 56px;
+  height: 56px;
+}
+
+.crnt-target-lang-item {
+  flex-basis: 364px;
+  border-radius: 16px;
+  padding: 40px;
+}
+
+.crnt-target-lang-item {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
 /* Current Target style end */
+
+/* Next Target style start */
+
+.nxt-target-language {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.nxt-target-lang-item {
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  padding: 40px;
+}
+
+.nxt-target-lang-item .target-image {
+  width: 108px;
+}
+
+.nxt-target-lang-item {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.nxt-target-lang-item .target-content {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+
+.nxt-target-lang-item .target-content .target-btn {
+  margin-top: 24px;
+}
+
+/* Next Target style end */
